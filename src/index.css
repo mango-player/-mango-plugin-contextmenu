@@ -1,0 +1,36 @@
+chimee-menu{
+  font-family: "\5FAE\8F6F\96C5\9ED1","\5B8B\4F53",Arial,Helvetica,sans-serif;
+  position: absolute;
+  background-color:rgba(28,28,28,.9);
+  -moz-box-shadow:2px 2px 5px #666;
+  border-radius:4px;
+  overflow:hidden;
+  text-shadow:0 0 2px rgba(0,0,0,.5);
+  ul{
+    margin:0;
+    padding:0;
+    
+  }
+  li{
+    min-width: 200px;
+    cursor: pointer;
+    position:relative;
+    list-style-type:none;
+    display:block;
+    height:33px;
+    line-height:32px;
+    padding:0 15px;
+    color:#fff;
+    font-size:12px;
+    text-decoration:none;
+    overflow:hidden;
+    &:hover{
+      background-color:rgba(255,255,255,.1);
+      text-decoration:none
+    }
+    &[disable]{
+      opacity: .5;
+      cursor: default;
+    }
+  }
+}
